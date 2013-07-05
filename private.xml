@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root>
+	<!--<item>-->
+		<!--<name>Device Specific Mixed Settings</name>-->
+		<item>
+			<name>For Ducky 9008 G2 Pro</name>
+			<item>
+				<name>Fix Music Next/Prev keys</name>
+				<appendix>This keyboard uses keycodes 17/18, respectively, instead of the standard values.</appendix>
+				<identifier>remap.localstatic.ducky9008g2pro</identifier>
+				<autogen>__ConsumerToConsumer__ ConsumerKeyCode::MUSIC_PREV_18, ConsumerKeyCode::MUSIC_PREV</autogen>
+				<autogen>__ConsumerToConsumer__ ConsumerKeyCode::MUSIC_NEXT_17, ConsumerKeyCode::MUSIC_NEXT</autogen>
+			</item>
+		</item>
+	<!--</item>-->
+</root>
